@@ -27,7 +27,7 @@ section#login{
     top:50% ;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.377);
     width: 250px;
     height: 500px;
     border-radius: 20px;
@@ -48,4 +48,8 @@ section#login{
 #formulario{
     padding: 10px;
     display: block;
+}
+#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
 }

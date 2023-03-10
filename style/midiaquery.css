@@ -15,18 +15,20 @@
     }
     #formulario {
         
-        width: 100%;
+       width: 100vw;
 
     }
-   #formulario > p{
+   #formulario {
     width: 100vw;
     
 }
 }
 @media screen and (min-width: 992px){
     section#login{
-
+        float: right;
         width: 950px;
     }
-
+    #formulario > p{
+        width: 100vw;
+    }
 }
