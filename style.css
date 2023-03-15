@@ -39,7 +39,7 @@ section#login{
 
 #imagem{
     background-color: blueviolet ;
-    background-image: url(imagens/astro.avif);
+    background-image: url(imagens/astronauta.gif);
     background-size: cover;
     height: 200px;
     background-position: left bottom;
@@ -53,3 +53,17 @@ section#login{
     text-align: center;
     margin-bottom: 10px;
 }
+
+#submit{
+    display: block;
+    font-size: 1em;
+    background-color: rgb(131, 44, 158);
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#submit:hover{background-color: rgb(255, 0, 255);}
