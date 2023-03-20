@@ -67,3 +67,5 @@ section#login{
     margin-top: 10px;
 }
 #submit:hover{background-color: rgb(255, 0, 255);}
+#a{color: aliceblue;}
+.material-symbols-outlined{color: blueviolet; }
